@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "package-two"
-version = "0.1.0"
+dynamic = ["version"]
 description = ""
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
@@ -13,6 +13,3 @@ mypy = "^1.6.0"
 [build-system]
 requires = ["setuptools>=60", "setuptools_scm[toml]>=8.0"]
 build-backend = "setuptools.build_meta"
-
-[tool.setuptools_scm]
-version_file = "pkg/_version.py"
