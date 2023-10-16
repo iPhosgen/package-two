@@ -1,9 +1,13 @@
 [tool.poetry]
 name = "package-two"
 dynamic = ["version"]
-description = ""
+description = "Test package"
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
+classifiers = [
+    "Topic :: Internet",
+    "Programming Language :: Python",
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"
